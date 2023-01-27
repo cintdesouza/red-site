@@ -1,0 +1,279 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.div-red {
+    background: url(../assets/red-bg.png);
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-section {
+    margin-top: 203px;
+    height: 1097px;
+    width: 100%;
+    background-color: var(--almostwhite);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px 0px 0px 0px;
+}
+
+.text {
+    text-align: justify;
+    height: 400px;
+    width: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.span-section {
+    font-size: 15px;
+    padding-right: 10px;
+    line-height: 120%;
+}
+
+.figure-one {
+    margin-top: 100px;
+    height: 900px;
+}
+
+.star-two {
+    position: absolute;
+    z-index: 1;
+    top: 1000px;
+    font-size: 150px;
+    left: 50px;
+    color: var(--darkred);
+}
+
+.star-three {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 1163px;
+    font-size: 200px;
+    color: var(--coral);
+}
+
+.star-four {
+    position: absolute;
+    z-index: 3;
+    top: 1197px;
+    left: 200px;
+    font-size: 200px;
+    color: var(--coral);
+}
+
+.star-five {
+    position: absolute;
+    z-index: 3;
+    top: 2180px;
+    left: 1070px;
+    font-size: 200px;
+    color: var(--darkred);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--coral);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: var(--coral);
+}
+
+.figure-two {
+    margin-top: 2px;
+}
+
+.section-two {
+    width: 100%;
+    background-color: var(--black);
+    height: 983px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-two-right-div{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    color: var(--lightbeige);
+    line-height: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.section-three {
+    background: url(../assets/red-bg.png);
+    width: 100vw;
+    height: 1100px;
+}
+
+.first-div-section-three {
+    background-color: var(--almostwhite);
+    border-radius: 0px 0px 100px 0px;
+    width: 100vw;
+    height: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-div-section-three {
+    width: 60vw;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.song-button {
+    background-color: var(--darkred);
+    width: 250px;
+    height: 50px;
+    color: var(--almostwhite);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.7s;
+}
+
+.song-button:hover {
+    background-color: var(--black);
+}
+
+.right-div-section-three {
+    width: 40vw;
+    height: 1050px;
+    position: relative;
+}
+
+.placeholder-3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    position: absolute;
+    z-index: 3;
+    top: 300px;
+    left: 100px;
+}
+
+.placeholder-4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    left: 20px;
+}
+
+.placeholder-5 {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 240px;
+    left: 350px;
+}
+
+.placeholder-6 {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 600px;
+    left: 300px;
+}
+
+.modal-container {
+    height: 600px;
+    width: 1000px;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.div-inside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-div-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    padding: 20px;
+}
+
+.about-song {
+    overflow-y: auto;
+    height: 400px;
+    text-align: justify;
+    padding-right: 5px;
+}
+
+.youtube-video {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.close-modal {
+    position: absolute;
+    top: -4px;
+    left: 985px;
+    background-color: brown;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--almostwhite);
+    border-radius: 5px;
+    cursor: pointer;
+}

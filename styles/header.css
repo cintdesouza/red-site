@@ -1,0 +1,43 @@
+.header {
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid var(--coral);
+    position: fixed;
+    background-color: var(--almostwhite);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 4;
+}
+
+.div-header {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.a-header {
+    color: var(--darkred);
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.a-header:hover {
+    color: var(--coral);
+}
+
+.star {
+    font-size: 40px;
+    color: var(--coral);
+    transition: 0.7s;
+}
+
+.star:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}

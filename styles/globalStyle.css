@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital@1&display=swap');
+
+:root{
+    --black: #010005;
+    --darkred: #73221f;
+    --darkbeige: #a48870;
+    --lightbeige: #d0bfad;
+    --coral: #cb5b5a;
+    --almostwhite: #F8F9FA;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--darkred);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
+}
